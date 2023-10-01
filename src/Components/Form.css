@@ -1,0 +1,43 @@
+
+  .form-header
+  {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  .text-title{
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .input-text{
+    width: 35em;
+    height: 3rem;
+    font-size: var(--normal-font-size);
+    border-radius: 0.75rem;
+    text-align: center;
+    border-color:#155263;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    grid-column-gap: 2rem; 
+  }
+  .uil{
+    font-size: 2.5rem ;
+    padding-bottom: 1.5rem;
+  }
+  .button{
+     padding: 0.25rem 3rem ;
+    border-radius: 1.875rem;
+    box-shadow: 0 0 1px rgb(0 0 0/0%);
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff9a3c;
+    font-weight: var(--font-semi-bold);
+    cursor: pointer; 
+  }
